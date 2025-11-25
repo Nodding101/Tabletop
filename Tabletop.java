@@ -3,8 +3,8 @@ import java.net.URI;
 import java.net.URL;
 import java.net.URISyntaxException; 
 import java.util.Scanner;
-import java.util.regex.Matcher; // Required for regex matching
-import java.util.regex.Pattern; // Required for regex matching
+import java.util.regex.Matcher;
+import java.util.regex.Pattern; 
 
 public class Tabletop {
     public static void main(String[] args) {
@@ -60,8 +60,8 @@ public class Tabletop {
     }
 
     static float AverageBrackets(){
-        int start = 236;
-        int end = 276;
+        int start = 236; //Term 3 W1
+        int end = 268; //Term 1 W6
         int totalBrackets = 0;
         int totalNewsletters = 0;
         
