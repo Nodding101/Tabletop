@@ -61,7 +61,7 @@ public class Tabletop {
 
     static float AverageBrackets(){
         int start = 236; //Term 3 W1
-        int end = 268; //Term 1 W6
+        int end = 266; //Term 1 W5
         int totalBrackets = 0;
         int totalNewsletters = 0;
         
